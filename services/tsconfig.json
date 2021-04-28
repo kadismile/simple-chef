@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "paths": {
+      "#root/*": ["./src/*"]
+    },
+    "strict": true,
+    "target": "ES5",
+    "types": ["node"]
+  }
+}
