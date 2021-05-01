@@ -18,7 +18,7 @@ module.exports.up = (queryInterface, DataTypes) => {
     },
     name: {
       allowNull: false,
-      type: DataTypes.INTEGER.UNSIGNED
+      type: DataTypes.STRING
     },
     createdAt: {
       allowNull: false,

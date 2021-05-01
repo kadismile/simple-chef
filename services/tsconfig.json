@@ -4,13 +4,13 @@
     "baseUrl": ".",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "module": "CommonJS",
-    "moduleResolution": "Node",
+    "module": "commonjs",
+    "moduleResolution": "node",
     "paths": {
       "#root/*": ["./src/*"]
     },
     "strict": true,
-    "target": "ES5",
+    "target": "es6",
     "types": ["node"]
   }
 }
